@@ -1,0 +1,11 @@
+name: CustomItemsPlugin
+version: '${project.version}'
+main: com.example.customitems.CustomItemsPlugin
+api-version: '1.20'
+description: A powerful custom items plugin with GUI preview system
+authors: [PluginDev]
+commands:
+  customitems:
+    description: Main command for CustomItems plugin
+    usage: /<command> [give|list|preview] [item] [player]
+    aliases: [citems, ci]

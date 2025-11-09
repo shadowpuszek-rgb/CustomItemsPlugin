@@ -1,0 +1,34 @@
+# Configuration for custom items plugin
+
+settings:
+  resourcepack:
+    # Port for the resource pack web server
+    port: 8080
+    # Whether to force resource pack
+    force: true
+    # Resource pack generation settings
+    generation:
+      # Enable automatic resource pack generation
+      enabled: true
+      # Model directory path
+      modelPath: "models"
+      # Texture directory path
+      texturePath: "textures"
+
+  items:
+    # Categories to load
+    categories:
+      - tech
+      - vehicles
+      - magic
+      - pets
+    
+  gui:
+    # Title for the main menu
+    mainMenuTitle: "Custom Items"
+    # Rows in the main menu
+    mainMenuRows: 3
+    # Title for category menus
+    categoryMenuTitle: "Category: %s"
+    # Rows in category menus
+    categoryMenuRows: 4
