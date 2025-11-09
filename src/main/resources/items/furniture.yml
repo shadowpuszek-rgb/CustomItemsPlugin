@@ -1,0 +1,53 @@
+# Furniture items and decorations
+modern_chair:
+  name: "§eModern Chair"
+  material: PAPER
+  custom_model_data: 8001
+  lore:
+    - "§7A comfortable modern chair"
+    - "§eRight-click to place"
+    - "§eShift + Right-click to rotate"
+  type: CHAIR
+
+luxury_sofa:
+  name: "§eLuxury Sofa"
+  material: PAPER
+  custom_model_data: 8002
+  lore:
+    - "§7An elegant luxury sofa"
+    - "§eRight-click to place"
+    - "§eShift + Right-click to rotate"
+  type: SOFA
+
+coffee_table:
+  name: "§eCoffee Table"
+  material: PAPER
+  custom_model_data: 8003
+  lore:
+    - "§7A stylish coffee table"
+    - "§eRight-click to place"
+    - "§eShift + Right-click to rotate"
+  type: TABLE
+
+modern_lamp:
+  name: "§eModern Lamp"
+  material: PAPER
+  custom_model_data: 8004
+  lore:
+    - "§7A modern floor lamp"
+    - "§eRight-click to place"
+    - "§eShift + Right-click to rotate"
+    - "§eRight-click placed lamp to toggle"
+  type: LAMP
+  properties:
+    light_level: 15
+
+bookshelf:
+  name: "§eDecorative Bookshelf"
+  material: PAPER
+  custom_model_data: 8005
+  lore:
+    - "§7A beautiful bookshelf"
+    - "§eRight-click to place"
+    - "§eShift + Right-click to rotate"
+  type: STORAGE
