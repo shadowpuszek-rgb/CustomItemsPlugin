@@ -6,6 +6,7 @@ import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import com.example.customitems.CustomItemsPlugin;
 import com.example.customitems.items.CustomItem;
+import com.example.customitems.items.ItemBuilder;
 import java.util.List;
 
 public class CategoryMenu {

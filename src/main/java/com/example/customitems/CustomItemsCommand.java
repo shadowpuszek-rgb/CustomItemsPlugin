@@ -5,6 +5,7 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import com.example.customitems.gui.ItemBrowser;
+import com.example.customitems.gui.PreviewWindow;
 import com.example.customitems.items.CustomItem;
 
 public class CustomItemsCommand implements CommandExecutor {
